@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bits_callback", "bits_callback.vcproj", "{95438AF9-34E9-4300-AA5D-B11C504EFDF1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{95438AF9-34E9-4300-AA5D-B11C504EFDF1}.Debug.ActiveCfg = Debug|Win32
+		{95438AF9-34E9-4300-AA5D-B11C504EFDF1}.Debug.Build.0 = Debug|Win32
+		{95438AF9-34E9-4300-AA5D-B11C504EFDF1}.Release.ActiveCfg = Release|Win32
+		{95438AF9-34E9-4300-AA5D-B11C504EFDF1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

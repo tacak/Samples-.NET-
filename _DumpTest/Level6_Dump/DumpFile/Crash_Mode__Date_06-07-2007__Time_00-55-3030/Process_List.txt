@@ -1,0 +1,120 @@
+ 0 32    0 System Process  
+     Command Line: 
+ 0 32    4 System          
+     Command Line: 
+ 0 32 1340 smss.exe        
+     Command Line: \SystemRoot\System32\smss.exe
+ 0 32 1492 csrss.exe       Title: 
+     Command Line: C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+ 0 32 1516 winlogon.exe    
+     Command Line: winlogon.exe
+ 0 32 1564 services.exe    Svcs:  Eventlog,PlugPlay
+     Command Line: C:\WINDOWS\system32\services.exe
+ 0 32 1576 lsass.exe       Svcs:  PolicyAgent,ProtectedStorage,SamSs
+     Command Line: C:\WINDOWS\system32\lsass.exe
+ 0 32 1780 svchost.exe     Svcs:  DcomLaunch,TermService
+     Command Line: C:\WINDOWS\system32\svchost -k DcomLaunch
+ 0 32 1848 svchost.exe     Svcs:  RpcSs
+     Command Line: C:\WINDOWS\system32\svchost -k rpcss
+ 0 32  188 svchost.exe     Svcs:  AudioSrv,Browser,CryptSvc,Dhcp,dmserver,ERSvc,EventSystem,helpsvc,HidServ,lanmanserver,lanmanworkstation,Netman,Nla,RasMan,Schedule,seclogon,SENS,SharedAccess,ShellHWDetection,srservice,TapiSrv,Themes,TrkWks,W32Time,winmgmt,wscsvc,wuauserv,WZCSVC
+     Command Line: C:\WINDOWS\System32\svchost.exe -k netsvcs
+ 0 32  384 svchost.exe     Svcs:  Dnscache
+     Command Line: C:\WINDOWS\System32\svchost.exe -k NetworkService
+ 0 32  484 svchost.exe     Svcs:  LmHosts,RemoteRegistry,SSDPSRV,WebClient
+     Command Line: C:\WINDOWS\System32\svchost.exe -k LocalService
+ 0 32  716 spoolsv.exe     Svcs:  Spooler
+     Command Line: C:\WINDOWS\system32\spoolsv.exe
+ 0 32  840 bgsvc.exe       Svcs:  bgsvc
+     Command Line: "D:\Program Files\B's Recorder GOLD8\bgsvc.exe"
+ 0 32  924 inetinfo.exe    Svcs:  IISADMIN,MSFtpsvc,SMTPSVC,W3SVC
+     Command Line: C:\WINDOWS\system32\inetsrv\inetinfo.exe
+ 0 32  952 mdm.exe         Svcs:  MDM
+     Command Line: "C:\Program Files\Common Files\Microsoft Shared\VS7Debug\mdm.exe"
+ 0 32  988 sqlservr.exe    Svcs:  MSSQL$SQLEXPRESS
+     Command Line: "C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn\sqlservr.exe" -sSQLEXPRESS
+ 0 32  496 nvsvc32.exe     Svcs:  NVSvc
+     Command Line: C:\WINDOWS\System32\nvsvc32.exe
+ 0 32  692 PcCtlCom.exe    Svcs:  PcCtlCom
+     Command Line: D:\PROGRA~1\TRENDM~1\VIRUSB~2\PcCtlCom.exe
+ 0 32 1128 sqlbrowser.exe  Svcs:  SQLBrowser
+     Command Line: "C:\Program Files\Microsoft SQL Server\90\Shared\sqlbrowser.exe"
+ 0 32 1184 sqlwriter.exe   Svcs:  SQLWriter
+     Command Line: "C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe"
+ 0 32 1204 svchost.exe     Svcs:  stisvc
+     Command Line: C:\WINDOWS\System32\svchost.exe -k imgsvc
+ 0 32 1292 TangoService.exe Svcs:  TangoService
+     Command Line: "D:\Program Files\NTTE\Flets\app\TangoService.exe"
+ 0 32 1436 Tmntsrv.exe     Svcs:  Tmntsrv
+     Command Line: d:\progra~1\trendm~1\virusb~2\tmntsrv.exe
+ 0 32  164 TmPfw.exe       Svcs:  TmPfw
+     Command Line: D:\PROGRA~1\TRENDM~1\VIRUSB~2\TmPfw.exe
+ 0 32 1968 DXDebugService.exe Svcs:  DXDebug
+     Command Line: "C:\Program Files\Common Files\Microsoft Shared\DirectX Extensions\DXDebugService.exe"
+ 0 32 2668 alg.exe         Svcs:  ALG
+     Command Line: C:\WINDOWS\System32\alg.exe
+ 0 32 3248 PcScnSrv.exe    Svcs:  PcScnSrv
+     Command Line: "D:\PROGRA~1\TRENDM~1\VIRUSB~2\PcScnSrv.exe"
+ 0 32 3596 explorer.exe    Title: Program Manager
+     Command Line: C:\WINDOWS\Explorer.EXE
+ 0 32 3900 rundll32.exe    Title: MediaCenter
+     Command Line: "C:\WINDOWS\system32\RUNDLL32.EXE" C:\WINDOWS\System32\NvMcTray.dll,NvTaskbarInit
+ 0 32 3916 daemon.exe      Title: Virtual DAEMON Manager V4.03HE
+     Command Line: "D:\Program Files\DAEMON Tools\daemon.exe" -lang 1033
+ 0 32 1200 RTHDCPL.exe     Title: Realtek HD オーディオマネージャ
+     Command Line: "C:\WINDOWS\RTHDCPL.EXE" 
+ 0 32 2928 iTunesHelper.exe Title: iTunes Helper
+     Command Line: "D:\Program Files\iTunes\iTunesHelper.exe" 
+ 0 32 3112 iPodService.exe Svcs:  iPodService
+     Command Line: "C:\Program Files\iPod\bin\iPodService.exe"
+ 0 32 3124 jusched.exe     Title: OleMainThreadWndName
+     Command Line: "D:\Program Files\Java\jre1.6.0_01\bin\jusched.exe" 
+ 0 32 3352 pccguide.exe    Title: _CLS_PCCGuide
+     Command Line: "D:\PROGRA~1\TRENDM~1\VIRUSB~2\pccguide.exe" 
+ 0 32 3324 UnlockerAssistant.exe Title: UnlockerAssistant
+     Command Line: "D:\Program Files\Unlocker\UnlockerAssistant.exe" -H
+ 0 32 3380 ipoint.exe      Title: 
+     Command Line: "C:\Program Files\Microsoft IntelliPoint\ipoint.exe" 
+ 0 32 4000 ctfmon.exe      Title: 
+     Command Line: "C:\WINDOWS\system32\ctfmon.exe" 
+ 0 32  596 msnmsgr.exe     Title: Windows Live Messenger
+     Command Line: "C:\Program Files\MSN Messenger\MsnMsgr.Exe" /background
+ 0 32 3920 TMAS_OEMon.exe  Title: {95792F2B-CF68-4e99-A9E7-A613CD4F5594}
+     Command Line: "D:\Program Files\Trend Micro\Virus Buster 2007\TMAS_OE\TMAS_OEMon.exe" 
+ 0 32  420 msmsgs.exe      Title: 
+     Command Line: "C:\Program Files\Messenger\msmsgs.exe" /background
+ 0 32 2500 TANGOM~1.EXE    Title: フレッツ接続ツール
+     Command Line: D:\PROGRA~1\NTTE\Flets\app\TangoManager.exe -Service 
+ 0 32 2596 Charu3.exe      Title: Charu3
+     Command Line: "D:\Program Files\Charu3\Charu3.exe" 
+ 0 32 2772 mmvc.exe        Title: MasterVC
+     Command Line: "D:\Program Files\mmvc314\mmvc.exe" 
+ 0 32 2552 SpLnch.exe      Title: 新規 - Special Launch(Hid)
+     Command Line: "D:\Program Files\Special Launch 4\SpLnch.exe" 
+ 0 32 1568 tclock.exe      Title: TClock
+     Command Line: "D:\Program Files\tclocklight-040702-3\tclock.exe" 
+ 0 32 3720 SOboe.exe       Title: 
+     Command Line: "D:\Program Files\OboeGaki\SOboe.exe" 
+ 0 32 2740 usnsvc.exe      Svcs:  usnjsvc
+     Command Line: "C:\Program Files\MSN Messenger\usnsvc.exe"
+ 0 32  452 mspdbsrv.exe    
+     Command Line: mspdbsrv.exe -start -spawn
+ 0 32 3456 conime.exe      Title: 
+     Command Line: C:\WINDOWS\system32\conime.exe
+ 0 32 2568 tmproxy.exe     Svcs:  tmproxy
+     Command Line: D:\PROGRA~1\TRENDM~1\VIRUSB~2\tmproxy.exe
+ 0 32 3048 dllhost.exe     Svcs:  COMSysApp  Mts:   System Application
+     Command Line: C:\WINDOWS\System32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+ 0 32 2284 cmd.exe         Title: コマンド プロンプト - adplus.vbs -crash -p 1088
+     Command Line: "C:\WINDOWS\system32\cmd.exe" 
+ 0 32 1088 BreakProgram.exe Title: E:\BreakProgram.exe
+     Command Line: "E:\BreakProgram.exe" 
+ 0 32  536 cmd.exe         
+     Command Line: C:\WINDOWS\system32\cmd.exe /c pause
+ 0 32 3752 taskmgr.exe     Title: Windows タスク マネージャ
+     Command Line: taskmgr.exe
+ 0 32 2072 cscript.exe     Title: 
+     Command Line: "C:\WINDOWS\System32\CScript.exe" //nologo "D:\Program Files\Debugging Tools for Windows\adplus.vbs"  -crash -p 1088
+ 0 32  904 cmd.exe         Title: C:\WINDOWS\system32\cmd.exe
+     Command Line: "C:\WINDOWS\system32\cmd.exe" /c tlist.exe -v >"D:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-07-2007__Time_00-55-3030\Process_List.txt"
+ 0 32 2896 tlist.exe       
+     Command Line: tlist.exe -v 

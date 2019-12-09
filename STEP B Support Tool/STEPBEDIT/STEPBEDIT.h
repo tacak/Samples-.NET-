@@ -1,0 +1,1 @@
+void FormatStepB(LPWSTR result, int bufsize);

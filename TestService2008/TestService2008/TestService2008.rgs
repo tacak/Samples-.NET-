@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'TestService2008'
+		'TestService2008.EXE'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

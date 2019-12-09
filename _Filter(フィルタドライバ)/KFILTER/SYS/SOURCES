@@ -1,0 +1,9 @@
+TARGETNAME=kFILTER
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+LINKER_FLAGS=-map
+
+SOURCES= kFILTER.c     \
+         KdebugView.c
+

@@ -1,0 +1,9 @@
+LIBRARY	"PerfTestDLL"
+EXPORTS
+    PerftestOpen        @1
+    PerftestCollect     @2
+    PerftestClose       @3
+    GetInstanceCount    @4
+    GetPerf1            @5
+    ChangeInstanceCount @6
+    ChangePerf1         @7

@@ -1,0 +1,7 @@
+LIBRARY	"TestDLL"
+EXPORTS
+    TestFunc  @1
+    TestFunc2 @2
+    TestFunc3 @3
+    TestFunc4 @4
+    TestFunc5 @5

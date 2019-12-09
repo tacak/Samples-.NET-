@@ -1,0 +1,62 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xml:lang="ja-JP"
+	x:Class="TestProject3.Window1"
+	x:Name="Window"
+	Title="Window"
+	Width="640" Height="480">
+
+	<Window.Resources>
+		<Storyboard x:Key="OnLoaded1">
+			<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="radioButton" Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)">
+				<SplineColorKeyFrame KeyTime="00:00:05" Value="#FF0AFF10"/>
+			</ColorAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="radioButton" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:05" Value="5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="radioButton" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<SplineDoubleKeyFrame KeyTime="00:00:05" Value="5"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="OnMouseDoubleClick1">
+			<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="radioButton" Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)">
+				<SplineColorKeyFrame KeyTime="00:00:05" Value="#FF0039FF"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource OnLoaded1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Control.MouseDoubleClick">
+			<BeginStoryboard x:Name="OnMouseDoubleClick1_BeginStoryboard" Storyboard="{StaticResource OnMouseDoubleClick1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource OnLoaded1}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<RadioButton HorizontalAlignment="Left" Margin="79.195,119.141,0,0" VerticalAlignment="Top" Width="86" Height="16" Content="RadioButton" x:Name="radioButton" Foreground="#FFFF00EE">
+			<RadioButton.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleX="1" ScaleY="1"/>
+					<SkewTransform AngleX="0" AngleY="0"/>
+					<RotateTransform Angle="30"/>
+					<TranslateTransform X="0" Y="0"/>
+				</TransformGroup>
+			</RadioButton.RenderTransform>
+		</RadioButton>
+		<CheckBox RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Margin="208,77,0,0" VerticalAlignment="Top" Width="75" Height="16" Content="CheckBox">
+			<CheckBox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleX="5" ScaleY="5"/>
+					<SkewTransform AngleX="0" AngleY="0"/>
+					<RotateTransform Angle="0"/>
+					<TranslateTransform X="0" Y="0"/>
+				</TransformGroup>
+			</CheckBox.RenderTransform>
+		</CheckBox>
+	</Grid>
+</Window>

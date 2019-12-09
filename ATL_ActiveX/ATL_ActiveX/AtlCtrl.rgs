@@ -1,0 +1,34 @@
+HKCR
+{
+	ATL_ActiveX.AtlCtrl.1 = s 'AtlCtrl Class'
+	{
+		CLSID = s '{304B8BC2-1942-44AD-BE19-29666B1905DC}'
+	}
+	ATL_ActiveX.AtlCtrl = s 'AtlCtrl Class'
+	{
+		CLSID = s '{304B8BC2-1942-44AD-BE19-29666B1905DC}'
+		CurVer = s 'ATL_ActiveX.AtlCtrl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {304B8BC2-1942-44AD-BE19-29666B1905DC} = s 'AtlCtrl Class'
+		{
+			ProgID = s 'ATL_ActiveX.AtlCtrl.1'
+			VersionIndependentProgID = s 'ATL_ActiveX.AtlCtrl'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			ForceRemove 'Control'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 102'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			'TypeLib' = s '{D5800E05-CCC7-42B1-AC93-7D024583DF91}'
+			'Version' = s '1.0'
+		}
+	}
+}

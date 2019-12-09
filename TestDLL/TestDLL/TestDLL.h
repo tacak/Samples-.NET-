@@ -1,0 +1,1 @@
+void _stdcall TestFunc(char **pp);

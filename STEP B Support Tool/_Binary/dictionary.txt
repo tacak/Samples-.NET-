@@ -1,0 +1,85 @@
+Windows
+widnows
+windos
+
+Windows 95
+windows95
+win95
+
+Windows 98
+windows98
+win98
+
+Windows Server 2003
+windows 2003 server
+windowsserver2003
+win2003
+win2k3
+
+Windows 2000 Server
+windows2000server
+win2kserver
+
+Windows 2000
+windows2000
+win2k
+
+Windows Me
+winMe
+windowsme
+
+Windows XP
+windowsxp
+winxp
+
+Windows Server 2008
+windowsserver2008
+windows2008server
+win2k8
+win2008
+
+Windows 7
+windows7
+win7
+
+Windows Vista
+windowsvista
+winvista
+
+Active Directory
+activedirectory
+
+ISA Server 2006
+isa2006
+isa 2006
+isaserver2006
+
+ISA Server 2004
+isa2004
+isa 2004
+isaserver2004
+
+Exchange Server 2007
+exchange2007
+exchange 2007
+exchangeserver2007
+
+Exchange Server 2003
+exchange2003
+exchange 2003
+exchangeserver2003
+
+Internet Explorer
+internetexplorer
+
+Internet Explorer 6.0
+internet explorer6
+
+Internet Explorer 7
+internet explorer7
+
+Internet Explorer 8
+internet explorer8
+
+ドメインコントローラ
+ドメコン

@@ -1,0 +1,102 @@
+; ACCESS.INF -- This file contains descriptions for ACCESS.SYS driver
+;             based on SCSI.INF file
+;
+; (c) Copyright (c) 2002 AIdesign
+;
+[version]
+signature="$Windows NT$"
+Class=SCSIAdapter
+ClassGUID={4D36E97B-E325-11CE-BFC1-08002BE10318}
+Provider=%PRODUCT_COMPANY%
+
+[Manufacturer]
+%PRODUCT_COMPANY%=VFDDEVICES
+
+[VFDDEVICES]
+%PRODUCT_DESC% = VFD_Install, *VFD1999
+
+[VFD_Install]
+CopyFiles=VFD.copy.files
+CopyFiles=VFD.copy.files2
+
+[VFD_Install.Services]
+AddService=ACCESS, 0x00000002, VFD_Service_Inst
+
+[VFD_Service_Inst]
+DisplayName    = %PRODUCT_SYSDISPNAME%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 2 ; SERVICE_AUTO_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\ACCESS.SYS
+LoadOrderGroup = Primary disk
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Disk lay out information, used by the CopyFiles lists
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; This is the source disk identifiers the number at the
+; beginning maps to the SourceDisksFiles first parameter
+
+[SourceDisksNames]
+1="%PRODUCT_DESC% %SOURCEDISK_DESC%","",1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; SourceDisksFiles -
+; this must have ALL file names in any copyfiles section
+; so that the default copyfile error callback dialog (browse,skip)
+; can use the SourceDisksNames strings above to help find the file
+; -- this infomation can also be put in a layout.inf
+;
+; filename_on_source = diskid,subdir,size,checksum,spare,spare
+; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[SourceDisksFiles]
+ACCESS.SYS = 1,,,,,
+ACCESS.INF = 1,,,,,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Targetdirectories predefined for [DestinationDirs] section
+;   parameter number one  
+;     00 = null, use only the second parameter for a path
+;     11 = windows system directory
+;     12 = windows drivers directory
+;     ...
+;
+
+[DestinationDirs]
+;
+; a default if a particular copyfiles section
+;
+; DefaultDestDir=LDID[,subdir]  ; not used in this sample
+
+;
+; Copy directory
+;
+VFD.copy.files=12      ; System32/Drivers
+VFD.copy.files2=17     ; Inf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; CopyFiles lists
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[VFD.copy.files]
+ACCESS.SYS,,,
+[VFD.copy.files2]
+ACCESS.INF,,,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Strings replace variable in percents above
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[Strings]
+PRODUCT_COMPANY     = "21Century Corporation"
+PRODUCT_DESC        = "Access_account Filter Driver for AIdesign"
+PRODUCT_SYSDISPNAME = "Filter account Driver"
+SOURCEDISK_DESC     = "Source Disk #1"

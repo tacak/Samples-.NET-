@@ -1,0 +1,3 @@
+LIBRARY	"TestCLRDLL"
+EXPORTS
+	TestFunction @1

@@ -1,0 +1,5 @@
+LIBRARY	"BreakModule"
+EXPORTS
+	TestFunction1 @1
+	TestFunction2 @2
+	TestFunction3 @3

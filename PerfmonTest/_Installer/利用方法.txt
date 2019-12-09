@@ -1,0 +1,8 @@
+< インストール方法 >
+1. _Installer フォルダを開き、Install.bat を実行する。
+2. パフォーマンスモニタ ( perfmon.exe ) を開き、PerfTest DLL カウンタを追加する。
+3. _Controller フォルダを開き、PerfTestExe.exe を実行する。
+4. ボタンを押下したり、複数コントローラを立ち上げたりしながら、カウンタの変動を見る。
+
+< アンインストール方法 >
+1. _Installer フォルダを開き、UnInstall.bat を実行する。

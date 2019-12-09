@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BreakProgram", "BreakProgram\BreakProgram.vcproj", "{FE9F4D9D-5DCA-4713-9907-5348136A4001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9F4D9D-5DCA-4713-9907-5348136A4001}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE9F4D9D-5DCA-4713-9907-5348136A4001}.Debug|Win32.Build.0 = Debug|Win32
+		{FE9F4D9D-5DCA-4713-9907-5348136A4001}.Release|Win32.ActiveCfg = Release|Win32
+		{FE9F4D9D-5DCA-4713-9907-5348136A4001}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

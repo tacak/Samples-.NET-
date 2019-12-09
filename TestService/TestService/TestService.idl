@@ -1,0 +1,18 @@
+// TestService.idl : TestService の IDL ソース
+//
+
+// このファイルは、タイプ ライブラリ (TestService.tlb) およびマーシャリング コードを
+// 作成するために MIDL ツールによって処理されます。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(892301F2-31E3-4FE5-AF15-CC980EDB477C),
+	version(1.0),
+	helpstring("TestService 1.0 タイプ ライブラリ")
+]
+library TestServiceLib
+{
+	importlib("stdole2.tlb");
+};

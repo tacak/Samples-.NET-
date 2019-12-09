@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfTestExe", "PerfTestExe\PerfTestExe.vcproj", "{944E5CD0-8EC4-4818-92F8-FFF6DE1543A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfTestDLL", "PerfTestDLL\PerfTestDLL.vcproj", "{C9FF7047-37F1-425F-9D5A-5E07C25DA310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{944E5CD0-8EC4-4818-92F8-FFF6DE1543A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{944E5CD0-8EC4-4818-92F8-FFF6DE1543A5}.Debug|Win32.Build.0 = Debug|Win32
+		{944E5CD0-8EC4-4818-92F8-FFF6DE1543A5}.Release|Win32.ActiveCfg = Release|Win32
+		{944E5CD0-8EC4-4818-92F8-FFF6DE1543A5}.Release|Win32.Build.0 = Release|Win32
+		{C9FF7047-37F1-425F-9D5A-5E07C25DA310}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9FF7047-37F1-425F-9D5A-5E07C25DA310}.Debug|Win32.Build.0 = Debug|Win32
+		{C9FF7047-37F1-425F-9D5A-5E07C25DA310}.Release|Win32.ActiveCfg = Release|Win32
+		{C9FF7047-37F1-425F-9D5A-5E07C25DA310}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

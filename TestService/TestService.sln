@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestService", "TestService\TestService.vcproj", "{0F4A5B43-3FF4-4771-BED5-E72C057B633D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestServicePS", "TestService\TestServicePS.vcproj", "{3FC4622A-4299-4F37-9886-7BF0AE03B6B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F4A5B43-3FF4-4771-BED5-E72C057B633D} = {0F4A5B43-3FF4-4771-BED5-E72C057B633D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4A5B43-3FF4-4771-BED5-E72C057B633D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F4A5B43-3FF4-4771-BED5-E72C057B633D}.Debug|Win32.Build.0 = Debug|Win32
+		{0F4A5B43-3FF4-4771-BED5-E72C057B633D}.Release|Win32.ActiveCfg = Release|Win32
+		{0F4A5B43-3FF4-4771-BED5-E72C057B633D}.Release|Win32.Build.0 = Release|Win32
+		{3FC4622A-4299-4F37-9886-7BF0AE03B6B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FC4622A-4299-4F37-9886-7BF0AE03B6B2}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

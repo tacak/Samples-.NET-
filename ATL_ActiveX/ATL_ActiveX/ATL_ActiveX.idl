@@ -1,0 +1,39 @@
+// ATL_ActiveX.idl : ATL_ActiveX の IDL ソース
+//
+
+// このファイルは、タイプ ライブラリ (ATL_ActiveX.tlb) およびマーシャリング コードを
+// 作成するために MIDL ツールによって処理されます。
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(9878F618-39D0-4109-8523-C0E65356EA2D),
+	dual,
+	nonextensible,
+	helpstring("IAtlCtrl インターフェイス"),
+	pointer_default(unique)
+]
+interface IAtlCtrl : IDispatch{
+};
+
+[
+	uuid(D5800E05-CCC7-42B1-AC93-7D024583DF91),
+	version(1.0),
+	helpstring("ATL_ActiveX 1.0 タイプ ライブラリ")
+]
+library ATL_ActiveXLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(304B8BC2-1942-44AD-BE19-29666B1905DC),
+		control,
+		helpstring("AtlCtrl Class")
+	]
+	coclass AtlCtrl
+	{
+		[default] interface IAtlCtrl;
+	};
+};

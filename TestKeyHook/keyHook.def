@@ -1,0 +1,7 @@
+LIBRARY	KeyHook
+SECTIONS
+    MY_DATA READ WRITE SHARED
+EXPORTS
+    MyHookProc @1
+    SetHook    @2
+    ResetHook  @3
